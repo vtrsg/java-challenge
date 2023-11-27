@@ -14,6 +14,10 @@ public class App {
         String[] nameArray = {"CARLOS ", " EDUARDO", "DA", " COSTA", "XAVIER"};
         printConcatenedString(nameArray);
         
+        // Call higher value
+        int[] numbersArray = {334, 568, 123, 796, 225};
+        printLargestValueInArray(numbersArray);
+
         scanner.close();
     }
 
@@ -32,6 +36,13 @@ public class App {
 
         System.out.println("Concatenated name: " + concatenatedResult);
     }
+
+    
+    public static void printLargestValueInArray(int[] numbersArray) {
+        int higherValue = HigherValue.findTheLargestValue(numbersArray);;
+        System.out.println("The largest value in the array is: " + higherValue);
+    }
+
 
     
 }
