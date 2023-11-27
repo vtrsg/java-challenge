@@ -1,0 +1,16 @@
+bin/
+target/
+.idea/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+*.log
+*.tmp
+dependency-reduced-pom.xml
+.mvn/
+mvnw
+mvnw.cmd
+.DS_Store
+Thumbs.db
